@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gifs",
+  "info": {
+    "name": "Gifs"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
